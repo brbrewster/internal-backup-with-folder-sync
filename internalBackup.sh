@@ -195,5 +195,5 @@ chown -R $username:$groupname $backupPath
 # your user account, uncomment the line with the mail command.                       #
 ######################################################################################
 
-mail -t $address -s "Internal Backup Log" < $backupLog
+# mail -t $address -s "Internal Backup Log" < $backupLog
 
